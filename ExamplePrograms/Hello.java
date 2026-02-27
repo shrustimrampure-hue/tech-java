@@ -1,9 +1,16 @@
 package ExamplePrograms;
 
 public class Hello{
-    public static void main(String[] args) {
-        for(int i=0;i<=10;i++) {
+    void stat() {
+        for (int i = 0; i <= 10; i++) {
             System.out.println(i);
         }
+    }
+}
+class stata{
+    public static void main(String[] args) {
+        Hello h =new Hello();
+        h.stat();
+        h.stat();
     }
 }
